@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Name that Champion</title>
+        <link rel="stylesheet" type="text/css" href="./files/styles/app.css">
+        <link rel="stylesheet" href="./files/vendor/bootstrap/dist/css/bootstrap.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row clearfix">
+            	<div class="col-md-12 column">
+            		<h2>
+            			Name that Champion
+            		</h2>
+            		<p>
+            			Can you name all the champions? Enter your guess in the box below.
+            		</p>
+            		<div class="row clearfix">
+            			<div class="col-md-12 column">
+            			    <!-- champion image here -->
+            			    <div id="champion-splash"><img src="http://placehold.it/400x400&text=champion+splash" /></div>
+            			</div>
+            		</div>
+            	</div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-md-12 column">
+                    <div class="input-group" id="input">
+                        <input type="text" class="form-control typeahead" id="player-guess" placeholder="Name that champion">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit">Submit!</button></button>
+                        </span>
+                    </div>
+            	</div>
+            </div>
+        </div>
+        
+        <script src="/files/vendor/jquery/dist/jquery.min.js"></script>
+        <script src="/files/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="/files/vendor/pixi.dev.js"></script>
+        <script src="/files/vendor/typeahead.js/dist/typeahead.jquery.min.js"></script>
+        <script src="/files/game/js/typing.js"></script>
+    </body>
+</html>

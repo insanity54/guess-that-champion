@@ -1,0 +1,21 @@
+{
+  "name": "guess-that-champion",
+  "version": "0.0.0",
+  "homepage": "https://github.com/insanity54/guess-that-champion",
+  "authors": [
+    "Chris Grimmett <xtoast@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pixi.js": "~2.2.5",
+    "bootstrap": "~3.3.2"
+  }
+}

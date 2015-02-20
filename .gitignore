@@ -26,3 +26,15 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+# sensitive config
+config.json
+
+# champion images
+public/files/game/images/champion
+
+# client side vendor libs
+public/files/vendor
+
+# cloud9
+.c9
