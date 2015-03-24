@@ -46,3 +46,8 @@ backend utility scripts go here
 ### /public
 
 everything being made publically accessible by the node server. All game assets, html/js/css
+
+
+## TODO
+
+line 135 of Game.js, make the endgame

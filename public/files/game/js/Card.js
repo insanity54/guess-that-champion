@@ -3,16 +3,13 @@
 
 
 Card = function(texture) {
-    //var texture = PIXI.Texture.fromImage("/files/game/images/champion/Jinx.png");
-    
-    //this.setTexture(texture);
-    //return Object.create(PIXI.Sprite.prototype)(texture);
+    this.number;
 };
         
 Card.constructor = Card;
 Card.prototype = Object.create(PIXI.Sprite.prototype);
 
-Card.prototype.update = function() {
+Card.prototype.update = function(texture) {
     console.log('updating card');
-    //this.setTexture(assets[game.currentCard]);
+    //this.setTexture(game.assets.pictures[game.currentQuestion]);
 };

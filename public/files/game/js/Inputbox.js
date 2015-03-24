@@ -14,12 +14,15 @@
     
     //console.log('there are ' + data.names.length  + ' champions.');
     
-Inputbox = function() {
-    
-
+Inputbox = function(game) {
+    this.game = game;
+    this.loadNames(game.assets.names);
+    //this.question = game.question;
+    game.inputbox = this;
 };
 
 Inputbox.constructor = Inputbox;
+//Inputbox.prototype = Object.create(PIXI.Sprite.prototype);
 
 
 /**
@@ -74,14 +77,17 @@ Inputbox.prototype.loadNames = function(champions) {
         if (e.keyCode == 13) {
             // enter key pressed
             e.preventDefault();
-            console.log('enter key prssed on the input box ' + $("#inputter").val());
-            console.log(e);
+            //console.log(e);
             that.submitGuess($(".typeahead").typeahead('val'));
+            $('.typeahead').typeahead('val', '');
         }
     });
-
 };
 
 Inputbox.prototype.submitGuess = function(guess) {
     console.log('submitting guess ' + guess);
-}
+    // pass guess onto Question
+    //question.compareGuess(guess);
+    this.game.compareGuess(guess);
+    //console.log(this.game.getCurrentChampion());
+};

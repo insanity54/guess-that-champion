@@ -10,7 +10,6 @@ document.getElementById("game").appendChild(renderer.view);
 document.addEventListener('preloaded', onPreload);
 $("#state").html("<p>Loading more stuff</p>");
 
-
 function onPreload(e) {
     
     console.log('assets preloaded');
@@ -63,9 +62,10 @@ function onPreload(e) {
     
     var score = new Score();
     var game = new Game(assets);
-    var input = new Inputbox();
+    var input = new Inputbox(game);
+    //var question = new Question(game);
     
-    input.loadNames(assets.names);
+    //input.loadNames(assets.names);
     //var question = new Question(game);
     
     //var card = new Card(texture);
