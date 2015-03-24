@@ -1,0 +1,29 @@
+{
+  "name": "guess-that-champion",
+  "version": "0.0.1",
+  "description": "guess the league of legends champion game",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.11.2",
+    "fs-extra": "^0.16.3",
+    "leagueapi": "^0.4.6",
+    "nconf": "^0.7.1",
+    "request": "^2.53.0",
+    "tar.gz": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/insanity54/guess-that-champion"
+  },
+  "author": "Chris Grimmett <chris@grimtech.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/insanity54/guess-that-champion/issues"
+  },
+  "homepage": "https://github.com/insanity54/guess-that-champion"
+}
