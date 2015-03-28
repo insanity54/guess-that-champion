@@ -99,8 +99,6 @@ function onPreload(e) {
         requestAnimFrame(animate);
         // card.rotation += 0.001;
     
-        if (game.currentQuestion == game.currentQuestion.length) score.gameOver;
-        
     
         // render the stage  
         renderer.render(stage);
