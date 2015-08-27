@@ -78,7 +78,7 @@ Inputbox.prototype.loadNames = function(champions) {
             // enter key pressed
             e.preventDefault();
             //console.log(e);
-            that.submitGuess($(".typeahead").typeahead('val'));
+            that.submitGuess($('input.typeahead.tt-input').val());
             $('.typeahead').typeahead('val', '');
         }
     });
