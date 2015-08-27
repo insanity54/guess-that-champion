@@ -35,7 +35,7 @@ function shuffle(array) {
 function compileChampionData(cb) {
     console.log('compile the data');
     
-    $.get("/files/game/data/champion.json", function(json, status) {
+    $.get("./files/game/data/champion.json", function(json, status) {
         //console.log(status);
         //console.dir(json);
         var counter = 0;
