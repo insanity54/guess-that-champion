@@ -48,9 +48,9 @@ function compileChampionData(cb) {
             //console.dir(json.data[champion]);
             var entry = [];
             names.push(json.data[champion].name);
-            pictures.push('/files/game/images/champion/' + json.data[champion].image.full);
+            pictures.push('./files/game/images/champion/' + json.data[champion].image.full);
             entry[0] = json.data[champion].name;
-            entry[1] = '/files/game/images/champion/' + json.data[champion].image.full;
+            entry[1] = './files/game/images/champion/' + json.data[champion].image.full;
             gameData.push(entry);
             counter += 1;
         }
