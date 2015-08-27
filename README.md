@@ -1,5 +1,5 @@
 # guess-that-champion
-Guess the league of legends champion game
+Guess the league of legends champion game. [Play it here](http://teamrpc.info)
 
 
 # Admin Guide
