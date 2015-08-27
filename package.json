@@ -5,14 +5,15 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.11.2",
+    "extract-archive": "^1.0.0",
     "fs-extra": "^0.16.3",
     "leagueapi": "^0.4.6",
     "nconf": "^0.7.1",
     "request": "^2.53.0",
-    "tar.gz": "^0.1.1"
+    "tar.gz": "1.0.0"
   },
   "devDependencies": {
-    "leagueapi": "matthewferderber/LeagueJS"
+    "LeagueJS": "matthewferderber/LeagueJS"
   },
   "scripts": {
     "start": "node index.js",
