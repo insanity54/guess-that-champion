@@ -12,21 +12,21 @@
 Game = function(assets) {
 
     // game vars
-    //this.assets = assets;  // @todo production
-    this.assets = {
-        gameData: [
-            ["Ahri", "/files/game/images/champion/Ahri.png"],
-            ["Lux", "/files/game/images/champion/Lux.png"],
-            ["Alistar", "/files/game/images/champion/Alistar.png"],
-            ["Taric", "/files/game/images/champion/Taric.png"]
-        ],
-        names: [
-            "Ahri",
-            "Lux",
-            "Alistar",
-            "Taric"
-        ]
-    };
+    this.assets = assets;  // @todo production
+    //this.assets = {
+    //    gameData: [
+    //        ["Ahri", "/files/game/images/champion/Ahri.png"],
+    //        ["Lux", "/files/game/images/champion/Lux.png"],
+    //        ["Alistar", "/files/game/images/champion/Alistar.png"],
+    //        ["Taric", "/files/game/images/champion/Taric.png"]
+    //    ],
+    //    names: [
+    //        "Ahri",
+    //        "Lux",
+    //        "Alistar",
+    //        "Taric"
+    //    ]
+    //};
     this.currentQuestion = 0;
     this.inputbox; // reference to input box
     this.correctStrings = [
