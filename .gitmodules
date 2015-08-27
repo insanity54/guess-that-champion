@@ -1,0 +1,3 @@
+[submodule "lib/LeagueJS"]
+	path = lib/LeagueJS
+	url = https://github.com/matthewferderber/LeagueJS
