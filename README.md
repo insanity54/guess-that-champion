@@ -1,4 +1,7 @@
 # guess-that-champion
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/insanity54/guess-that-champion.svg)](https://greenkeeper.io/)
+
 Guess the league of legends champion game. [Play it here](http://teamrpc.info)
 
 
