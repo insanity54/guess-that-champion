@@ -1,0 +1,12 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "package.json",
+        "public/files/vendor/bootstrap/package.json",
+        "public/files/vendor/pixi.js/package.json",
+        "public/files/vendor/typeahead.js/package.json"
+      ]
+    }
+  }
+}
